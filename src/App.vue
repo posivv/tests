@@ -349,6 +349,7 @@ const uploadJobs = ref([]);
 const isDownloading = ref(false);
 const downloadJobs = ref([]);
 const isDeleting = ref(false);
+
 const deleteJobs = ref([]);
 
 const paginatedFiles = computed(() => {
